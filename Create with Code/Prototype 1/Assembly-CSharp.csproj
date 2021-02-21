@@ -53,9 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Challenge 1\Scripts\FollowPlayerX.cs" />
+     <Compile Include="Assets\Challenge 1\Scripts\PlayerControllerX.cs" />
+     <Compile Include="Assets\Challenge 1\Scripts\RotatePropellerx.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
+     <None Include="Assets\Challenge 1\Scripts\Course Library\_Source_Files\_LICENSE.txt" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>C:/Users/rudow/Documents/Unity Projects/unity-tutorials/Create with Code/Prototype 1/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
