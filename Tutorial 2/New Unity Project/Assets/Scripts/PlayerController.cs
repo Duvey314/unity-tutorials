@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{   
-    public float horizontalInput; 
+{
+    public float horizontalInput;
     public float verticalInput;
-    public float speed = 10;
+    public float speed = 15;
     public float xRange = 10;
     public float zRange = 12;
 
@@ -15,34 +15,39 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < -xRange){
+        if (transform.position.x < -xRange)
+        {
 
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
-            
+
         }
-        
-        else if (transform.position.x > xRange){
+
+        else if (transform.position.x > xRange)
+        {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
 
-        if (transform.position.z < 0){
+        if (transform.position.z < 0)
+        {
 
             transform.position = new Vector3(transform.position.x, transform.position.y, 0);
-            
+
         }
 
-        else if (transform.position.z > zRange){
+        else if (transform.position.z > zRange)
+        {
             transform.position = new Vector3(transform.position.x, transform.position.y, zRange);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space)){
-            Instantiate(projectilePrefab,transform.position, projectilePrefab.transform.rotation);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");

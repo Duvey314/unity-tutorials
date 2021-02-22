@@ -352,6 +352,8 @@ GameObject:
   - component: {fileID: 4492979469948923701}
   - component: {fileID: 4492979469229398225}
   - component: {fileID: 114020823005834316}
+  - component: {fileID: 65385924507874664}
+  - component: {fileID: 114982990758796366}
   m_Layer: 0
   m_Name: Wife_2
   m_TagString: Untagged
@@ -420,6 +422,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af9f2853ae05f23418e1cb7219224775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &65385924507874664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4492979469958307061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114982990758796366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4492979469958307061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b99cfc4295d35498dfe247382d2946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4492979469958307069
