@@ -17,8 +17,8 @@ public class PlayerControllerX : MonoBehaviour
             Instantiate(dogPrefab, transform.position, dogPrefab.transform.rotation);
         }
         // if spacebar & timer done{
-            Send dog
-            reset timer
+        //    Send dog
+        //    reset timer
         }
     }
 }
